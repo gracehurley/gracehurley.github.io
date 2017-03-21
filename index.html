@@ -17,6 +17,7 @@ background-color: #333399
 
 .desktop {
   margin-left: 5px;
+  position: absolute;
 }
 
 .link {
@@ -32,6 +33,71 @@ opacity: 0
   margin-top: 415px;
   opacity: 0
 }
+
+.dropbtn {
+  background-color: transparent;
+    color: black;
+    padding: 15px;
+    font-family:serif;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 520px;
+    float: left;
+    margin-top: 880px;
+    min-width: 200px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+    }
+
+    .dropdown-content {
+display: none;
+position: absolute;
+background-color: lightgrey;
+color: black;
+font-family: serif;
+font-size: 20px;
+min-width: 500px;
+z-index: 1;
+  box-shadow: 5px 5px 5px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+		font-family: serif;
+		font-size: 50px;
+		font-weight: bold;
+		margin-left: 550px;
+		margin-top: 575px;
+    box-shadow: 5px 5px 5px;
+}
+
+.dropdown-content a:hover {
+	margin-left: 550px;
+	margin-top: 575px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+		margin-left: 550px;
+		margin-top: 575px;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: lightgrey;
+		color: black;
+    min-width: 200px;
+}
+
 
 </style>
 
@@ -56,6 +122,30 @@ opacity: 0
 
 <audio autoplay="true" src="assets/images/Startup_Sound.mp3">
 </audio>
+
+
+<div class="dropdown">
+  <button class="dropbtn">Manifesto Generator</button>
+  <div class="dropdown-content">
+    Filip Tyden & Gemma Holt<br>
+    One of the 18 million possible manifestos.<br>
+    &nbsp;1. Whisper<br>
+    &nbsp;2. Think more, make more<br>
+    &nbsp;3. Only use black<br>
+    &nbsp;4. Don't make compromises for other people<br>
+    &nbsp;5. Learn to speak up<br>
+    &nbsp;6. Everything is going to be alright<br>
+    &nbsp;7. Engage a specialist audience<br>
+    &nbsp;8. Call your grandparents today<br>
+    &nbsp;9. Good design is not invisible<br>
+   10. A manifesto is a formula<br>
+   http://www.filiptyden.se/<br>
+  </div>
+</div>
+
+<br>
+<br>
+<br>
 
 
 
