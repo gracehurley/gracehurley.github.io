@@ -1,0 +1,34 @@
+body {
+  font-family: arial;
+}
+
+.footnote {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  display: none;
+}
+
+.footnote.showme {
+  color:red;
+  display: block;
+}
+
+.thumbnail {
+  width: 150px;
+  transition: 2s;
+  display:none;
+}
+
+.thumbnail.active {
+display:block;
+}
+
+.bomb {
+  display: none;
+  border:1px solid red;
+}
+
+.bomb.play {
+  display: block;
+}
