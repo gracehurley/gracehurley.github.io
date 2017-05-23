@@ -2,21 +2,10 @@ $(document).ready(function() {
 
 
 
-
-  $('.number').mouseenter(function() {
-  $('.footnote').addClass('showme');
+$(document).ready(function() {
+  $('.box').click(function() {
+    $(this).toggleClass('taskbar');
+  });
 });
-
-$('.number').mouseleave(function() {
-  $('.footnote').removeClass('showme');
-});
-
-
-
-$('.thumbnail').click(function() {
-  $(this).removeClass('active');
-  $('.bomb').addClass('play');
-});
-
 
 });

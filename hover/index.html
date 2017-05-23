@@ -8,13 +8,307 @@
     <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
     <script src="assets/js/main.js" charset="utf-8"></script>
 
-  </head>
-  <body>
+<style>
 
-    <h1>Hover</h1>
 
-    <img class="thumbnail active" src="assets/images/15_text.png" alt="">
-    <img class="bomb" src="asset/images/bomb.gif" alt="">
+body {
+      background-image: url("assets/images/blue.gif");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 100vh;
 
-  </body>
+}
+
+html {
+    height: 100%
+}
+
+
+
+/*side menu*/
+.menu {
+position: fixed;
+display: inline-grid;
+height: 100vh;
+font-size: 100px;
+font-family: inherit;
+width: 10%;
+right: 0;
+top: 0;
+border-left: solid black 5px;
+margin: 0 auto;
+text-align: center;
+background-color: white;
+
+}
+
+.menu ul {
+  margin: 0 auto;
+
+}
+
+.menu li {
+  list-style: none;
+  margin: 0 auto;
+  padding-bottom: 175%;
+  border: black;
+}
+
+.menu a {
+text-decoration: none;
+color: black;
+margin: 0 auto;
+cursor: url('assets/images/pointer1.png'), auto;
+}
+
+.menu a:hover {
+background-color: blue;
+}
+
+/*title*/
+
+.title {
+  font-family: inherit;
+  color: blue;
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 50px;
+}
+
+
+
+body {
+cursor: url('assets/images/mouse1.png'), auto;
+}
+
+/*image layout*/
+.box {
+  position: fixed;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+
+.box:hover {
+  cursor: url('assets/images/pointer1.png'), auto;
+}
+
+.m1 {
+  top:100px;
+  left:10px;
+  transition:all 0.5s;
+
+}
+
+.m2 {
+  top:200px;
+  left:500px;
+}
+
+.m3 {
+  top:50px;
+  left:450px;
+}
+
+.m4 {
+  top:5px;
+  left:600px;
+}
+
+.m5 {
+  top:200px;
+  left:700px;
+}
+
+
+.m6 {
+  top: 10px;
+  left: 400px;
+}
+
+.m7 {
+  top: 200px;
+  left: 30px;
+}
+
+.m8 {
+  top:300px;
+  left: 40px;
+}
+
+.m9 {
+  top:150px;
+  left:150px;
+}
+
+.m10 {
+  top:50px;
+  left:350px;
+}
+
+.m11 {
+  top:200px;
+  left:500px;
+}
+
+.m12 {
+  top:50px;
+  left:200px;
+}
+
+.m13 {
+  top:375px;
+  left:400px;
+}
+
+.m14 {
+  top: 350px;
+  left: 10px;
+}
+
+.m15 {
+  top:225px;
+  left:325px;
+}
+
+.m16 {
+  top:20px;
+  left:810px;
+}
+
+.m17 {
+  top:350px;
+  left:550px;
+}
+
+.m18 {
+  top:10px;
+  left:15px;
+}
+
+.m19 {
+  top:15px;
+  left:450px;
+}
+
+.m20 {
+  top:200px;
+  left:750px;
+}
+
+
+
+
+.taskbar {
+  top:100vh;
+  left:0px;
+  transition:all 0.5s;
+  transform:scale(0);
+}
+
+
+    </style>
+
+
+    </head>
+    <body>
+
+      <div class="menu">
+        <ul>
+          <li><a href="article1.html">1</a></li>
+          <li><a href="article2.html">2</a></li>
+          <li><a href="article3.html">3</a></li>
+        </ul>
+        </div>
+
+<div class="title">
+u-r.online<br><br><br>
+<h1>Welcome</h1>
+</div>
+
+<div class="box m1">
+<img src="assets/images/cannot_delete.jpg" width="450px" alt="">
+</div>
+
+<div class="box m2">
+<img src="assets/images/confirm.png" width="450px" alt="">
+</div>
+
+<div class="box m3">
+<img src="assets/images/copy.gif" width="450px" alt="">
+</div>
+
+<div class="box m4">
+<img src="assets/images/crash09.png" width="450px" alt="">
+</div>
+
+<div class="box m5">
+<img src="assets/images/dial.up.gif" width="550px" alt="">
+</div>
+
+<div class="box m6">
+<img src="assets/images/download.gif" width="450px" alt="">
+</div>
+
+<div class="box m7">
+<img src="assets/images/download_complete.gif" width="450px" alt="">
+</div>
+
+<div class="box m8">
+<img src="assets/images/freesoftware.gif" width="450px" alt="">
+</div>
+
+<div class="box m9">
+<img src="assets/images/image9.gif" width="325px" alt="">
+</div>
+
+<div class="box m10">
+<img src="assets/images/minesweeper.gif" width="200px" alt="">
+</div>
+
+<div class="box m11">
+<img src="assets/images/msnwindow.jpg" width="575px" alt="">
+</div>
+
+<div class="box m12">
+<img src="assets/images/netscape.gif" width="550px" alt="">
+</div>
+
+<div class="box m13">
+<img src="assets/images/netsend.png" width="550px" alt="">
+</div>
+
+<div class="box m14">
+<img src="assets/images/open95.gif" width="450px" alt="">
+</div>
+
+<div class="box m15">
+<img src="assets/images/printer.gif" width="450px" alt="">
+</div>
+
+<div class="box m16">
+<img src="assets/images/shutdown.gif" width="425px" alt="">
+</div>
+
+<div class="box m17">
+<img src="assets/images/unexpected-error.jpg" width="300px" alt="">
+</div>
+
+<div class="box m18">
+<img src="assets/images/user.gif" width="550px" alt="">
+</div>
+
+<div class="box m19">
+<img src="assets/images/utility.gif" width="575px" alt="">
+</div>
+
+<div class="box m20">
+<img src="assets/images/win95.png" width="450px" alt="">
+</div>
+
+
+<a href="../index.html"></a>
+
+</body>
+
 </html>
