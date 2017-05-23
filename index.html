@@ -2,173 +2,313 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>My homepage</title>
-  </head>
+    <title>Hover</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/main.js" charset="utf-8"></script>
 
 <style>
 
+
 body {
-background-color: #333399
+      background-image: url("assets/images/blue.gif");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 100vh;
+
 }
 
-  audio {
-   display:none;
-    }
-
-.desktop {
-  margin-left: 5px;
-  position: absolute;
+html {
+    height: 100%
 }
 
-.link {
-position: absolute;
-left: 230px;
-top: 305px;
-z-index: 99;
+
+
+/*side menu*/
+.menu {
+position: fixed;
+display: inline-grid;
+height: 100vh;
+font-size: 100px;
+font-family: inherit;
+width: 10%;
+right: 0;
+top: 0;
+border-left: solid black 5px;
+margin: 0 auto;
+text-align: center;
+background-color: white;
+
 }
 
-.essaylink {
-  position: absolute;
-  left: 250px;
-  top: 450px;
-  z-index: 99;
+.menu ul {
+  margin: 0 auto;
+
 }
 
-.repostlink {
-  position: absolute;
-  left: 250px;
-  top: 580px;
-  z-index: 99;
+.menu li {
+  list-style: none;
+  margin: 0 auto;
+  padding-bottom: 175%;
+  border: black;
 }
 
-.dropbtn {
-  background-color: transparent;
-    color: black;
-    padding: 15px;
-    font-family:serif;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
-    position: absolute;
-    margin-left: 520px;
-    float: left;
-    margin-top: 880px;
-    min-width: 200px;
-    padding: 5px;
-    box-shadow: 5px 5px 5px;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-    }
-
-    .dropdown-content {
-display: none;
-position: absolute;
-background-color: lightgrey;
+.menu a {
+text-decoration: none;
 color: black;
-font-family: serif;
-font-size: 20px;
-min-width: 500px;
-z-index: 1;
-  box-shadow: 5px 5px 5px;
+margin: 0 auto;
+cursor: url('assets/images/pointer1.png'), auto;
 }
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-		font-family: serif;
-		font-size: 50px;
-		font-weight: bold;
-		margin-left: 550px;
-		margin-top: 575px;
-    box-shadow: 5px 5px 5px;
+.menu a:hover {
+background-color: blue;
 }
 
-.dropdown-content a:hover {
-	margin-left: 550px;
-	margin-top: 575px;
+/*title*/
+
+.title {
+  font-family: inherit;
+  color: blue;
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 50px;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-		margin-left: 550px;
-		margin-top: 575px;
+
+
+body {
+cursor: url('assets/images/mouse1.png'), auto;
 }
 
-.dropdown:hover .dropbtn {
-    background-color: lightgrey;
-		color: black;
-    min-width: 200px;
+/*image layout*/
+.box {
+  position: fixed;
+  box-shadow: 2px 2px 2px 2px grey;
 }
 
-.hoverideas {
-  z-index: 100;
-  top: 500px;
+.box:hover {
+  cursor: url('assets/images/pointer1.png'), auto;
+}
+
+.m1 {
+  top:100px;
+  left:10px;
+  transition:all 0.5s;
+
+}
+
+.m2 {
+  top:200px;
+  left:500px;
+}
+
+.m3 {
+  top:50px;
+  left:450px;
+}
+
+.m4 {
+  top:5px;
+  left:600px;
+}
+
+.m5 {
+  top:200px;
+  left:700px;
+}
+
+
+.m6 {
+  top: 10px;
   left: 400px;
-  position: absolute;
 }
 
-</style>
+.m7 {
+  top: 200px;
+  left: 30px;
+}
+
+.m8 {
+  top:300px;
+  left: 40px;
+}
+
+.m9 {
+  top:150px;
+  left:150px;
+}
+
+.m10 {
+  top:50px;
+  left:350px;
+}
+
+.m11 {
+  top:200px;
+  left:500px;
+}
+
+.m12 {
+  top:50px;
+  left:200px;
+}
+
+.m13 {
+  top:375px;
+  left:400px;
+}
+
+.m14 {
+  top: 350px;
+  left: 10px;
+}
+
+.m15 {
+  top:225px;
+  left:325px;
+}
+
+.m16 {
+  top:20px;
+  left:810px;
+}
+
+.m17 {
+  top:350px;
+  left:550px;
+}
+
+.m18 {
+  top:10px;
+  left:15px;
+}
+
+.m19 {
+  top:15px;
+  left:450px;
+}
+
+.m20 {
+  top:200px;
+  left:750px;
+}
 
 
-  <body>
 
 
-    <div class="link">
-      <a href="15_variations/index.html"><img src="assets/images/15_text.png"></a>
-      </div>
+.taskbar {
+  top:100vh;
+  left:0px;
+  transition:all 0.5s;
+  transform:scale(0);
+}
 
-    <div class="essaylink">
-        <a href="essay/index.html"><img src="assets/images/essay_text.png"></a>
+
+    </style>
+
+
+    </head>
+    <body>
+
+      <div class="menu">
+        <ul>
+          <li><a href="article1.html">1</a></li>
+          <li><a href="article2.html">2</a></li>
+          <li><a href="article3.html">3</a></li>
+        </ul>
         </div>
 
-    <div class="repostlink">
-        <a href="repost/index.html"><img src="assets/images/repost_text.png"></a>
-        </div>
+<div class="title">
+u-r.online<br><br><br>
+<h1>Welcome</h1>
+</div>
 
-<div class="desktop">
-<img src="assets/images/desktop1.jpg" width="1250px">
+<div class="box m1">
+<img src="assets/images/cannot_delete.jpg" width="450px" alt="">
+</div>
+
+<div class="box m2">
+<img src="assets/images/confirm.png" width="450px" alt="">
+</div>
+
+<div class="box m3">
+<img src="assets/images/copy.gif" width="450px" alt="">
+</div>
+
+<div class="box m4">
+<img src="assets/images/crash09.png" width="450px" alt="">
+</div>
+
+<div class="box m5">
+<img src="assets/images/dial.up.gif" width="550px" alt="">
+</div>
+
+<div class="box m6">
+<img src="assets/images/download.gif" width="450px" alt="">
+</div>
+
+<div class="box m7">
+<img src="assets/images/download_complete.gif" width="450px" alt="">
+</div>
+
+<div class="box m8">
+<img src="assets/images/freesoftware.gif" width="450px" alt="">
+</div>
+
+<div class="box m9">
+<img src="assets/images/image9.gif" width="325px" alt="">
+</div>
+
+<div class="box m10">
+<img src="assets/images/minesweeper.gif" width="200px" alt="">
+</div>
+
+<div class="box m11">
+<img src="assets/images/msnwindow.jpg" width="575px" alt="">
+</div>
+
+<div class="box m12">
+<img src="assets/images/netscape.gif" width="550px" alt="">
+</div>
+
+<div class="box m13">
+<img src="assets/images/netsend.png" width="550px" alt="">
+</div>
+
+<div class="box m14">
+<img src="assets/images/open95.gif" width="450px" alt="">
+</div>
+
+<div class="box m15">
+<img src="assets/images/printer.gif" width="450px" alt="">
+</div>
+
+<div class="box m16">
+<img src="assets/images/shutdown.gif" width="425px" alt="">
+</div>
+
+<div class="box m17">
+<img src="assets/images/unexpected-error.jpg" width="300px" alt="">
+</div>
+
+<div class="box m18">
+<img src="assets/images/user.gif" width="550px" alt="">
+</div>
+
+<div class="box m19">
+<img src="assets/images/utility.gif" width="575px" alt="">
+</div>
+
+<div class="box m20">
+<img src="assets/images/win95.png" width="450px" alt="">
 </div>
 
 
-
-
-<audio autoplay="true" src="assets/images/Startup_Sound.mp3">
-</audio>
-
-
-<div class="dropdown">
-  <button class="dropbtn">Manifesto Generator</button>
-  <div class="dropdown-content">
-    Filip Tyden & Gemma Holt<br>
-    One of the 18 million possible manifestos.<br>
-    &nbsp;1. Whisper<br>
-    &nbsp;2. Think more, make more<br>
-    &nbsp;3. Only use black<br>
-    &nbsp;4. Don't make compromises for other people<br>
-    &nbsp;5. Learn to speak up<br>
-    &nbsp;6. Everything is going to be alright<br>
-    &nbsp;7. Engage a specialist audience<br>
-    &nbsp;8. Call your grandparents today<br>
-    &nbsp;9. Good design is not invisible<br>
-   10. A manifesto is a formula<br>
-   http://www.filiptyden.se/<br>
-  </div>
-</div>
-
-<br>
-<br>
-<br>
-
-<div class="hoverideas">
-<a href="hover/index.html">Hover</a>
-</div>
-
-
+<a href="../index.html"></a>
 
 </body>
+
 </html>
