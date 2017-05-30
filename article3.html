@@ -20,7 +20,7 @@
         width:600px;
         font-size: 20px;
         margin:auto;
-
+background-image: url("assets/images/stars.gif");
     }
 
 
@@ -30,16 +30,7 @@
   height: 100vh;*/
 
 
-.bg img{
-  position: fixed;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-position: center;
-  background-size: cover;
-}
+
 
     h1 {
     font-family: inherit;
@@ -65,9 +56,10 @@ font-size: 100px;
 width: 10%;
 right: 0;
 top: 0;
-border-left: solid black 5px;
-  margin: 0 auto;
-  background-color: white;
+background-color: ;
+margin: 0 auto;
+border-left: ridge lightgrey 7px;
+box-shadow: 2px 2px 2px;
     }
 
     .menu ul {
@@ -90,6 +82,17 @@ border-left: solid black 5px;
 background-color: blue;
 }
 
+
+marquee {
+  width: 100%;
+  top: 10px;
+  left: 0;
+  z-index: 100;
+  position: fixed;
+  color: blue;
+
+}
+
 .side {
   left: 0;
   position: fixed;
@@ -109,16 +112,28 @@ background-color: blue;
   background-image: none;
 }
 
+.gif1 {
+  position: fixed;
+  display: inline-block;
+  left: 24%;
+  bottom: 0;
+  width: 100%;
+}
+
+.spinning {
+  top: 350px;
+  position: fixed;
+  left: 10px;
+}
 
     </style>
 
 
     </head>
-    <body>
 
-      <div class="bg">
-        <img src="assets/images/pink_grid2.gif;" alt="">
-      </div>
+      <marquee behavior="scroll" direction="left">Where is the Internet?</marquee>
+
+    <body>
 
 
   <div class="menu">
@@ -135,6 +150,20 @@ background-color: blue;
     <li><a href="">About</a></li> <br>
     <li><a href="">What</a></li>
   </ul>
+  </div>
+
+  <div class="gif1">
+    <img src="assets/images/cool_page.gif" alt="">
+      <img src="assets/images/geocities.gif" alt="">
+    <img src="assets/images/made_with.gif" alt="">
+      <img src="assets/images/freechannel.gif" alt="">
+    <img src="assets/images/free.gif" alt="">
+    <img src="assets/images/get_windows.gif" alt="">
+    <img src="assets/images/now_netscape.gif" alt="">
+  </div>
+
+  <div class="spinning">
+  <img src="assets/images/email.gif" width="200%" alt="">
   </div>
 
 <div class="text">
