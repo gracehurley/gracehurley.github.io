@@ -1,4 +1,40 @@
 
+.menu {
+  right: 10px;
+  position: fixed;
+
+
+
+}
+
+.menu li {
+  list-style: none;
+  font-size: 20px;
+  padding: 8px;
+  padding-bottom: 45%;
+  padding-top: 45%;
+  width: 100px;
+  text-align:center;
+  box-decoration-break: 10px black;
+  background-color: blue;
+  box-shadow: 5px 5px;
+
+/*
+  -moz-transform: rotate(90.0deg);
+         -o-transform: rotate(90.0deg);
+    -webkit-transform: rotate(90.0deg);
+    */
+}
+
+.menu li:hover {
+border-style: inset;
+border-color: darkblue;
+background-color: darkblue;
+}
+
+
+
+
 
 .footnote {
   position: fixed;

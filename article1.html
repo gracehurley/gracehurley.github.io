@@ -12,16 +12,76 @@
 
 <style>
 
-.text {
-  width: 90%;
-  padding: 50px;
 /*
-  background-color: white;
-  box-shadow: 5px 5px black;
-  border: solid black;
-  */
+.side {
+  left: 0;
+  position: fixed;
+  top: 10%;
+}
+
+.side li {
+  list-style: none;
+  background-image: url("assets/images/blue.gif");
+  box-shadow: 5px 5px;
+  padding: 15px;
+  width: 100px;
+  text-align: center;
+}
+
+.side li:hover {
+  background-image: none;
+}
+*/
+
+
+.hero {
+width: 100%;
+}
+
+.menu {
+  right: 10px;
+  position: fixed;
+
 
 }
+
+.menu li {
+  list-style: none;
+  font-size: 20px;
+  padding: 8px;
+  padding-bottom: 45%;
+  padding-top: 45%;
+  width: 100px;
+  text-align:center;
+  box-decoration-break: 10px black;
+  background-color: blue;
+  box-shadow: 5px 5px;
+
+/*
+  -moz-transform: rotate(90.0deg);
+         -o-transform: rotate(90.0deg);
+    -webkit-transform: rotate(90.0deg);
+    */
+}
+
+.menu li:hover {
+border-style: inset;
+border-color: darkblue;
+background-color: darkblue;
+}
+
+
+.text {
+  width: 600px;
+  padding: 50px;
+  margin: auto;
+}
+
+.text img {
+  display: block;
+  margin: auto;
+}
+
 
 marquee {
   width: 100%;
@@ -35,7 +95,6 @@ marquee {
 
     body {
       font-family: inherit;
-      width:600px;
       font-size: 20px;
       margin:auto;
       background-image: url("assets/images/clouds.gif");
@@ -52,48 +111,13 @@ marquee {
       font-family: inherit;
     }
 
-    h3 {
-
-    }
 
     em {
 font-style: italic;
 font-size: 14px;
     }
 
-    .menu {
-position: fixed;
-display: inline-block;
-height: 100vh;
-font-size: 100px;
-width: 10%;
-right: 0;
-top: 0;
-border-left: solid grey 5px;
-  margin: 0 auto;
 
-    }
-
-    .menu ul {
-      margin: 0 auto;
-    }
-
-    .menu li {
-      list-style: none;
-      margin: 0 auto;
-      padding-bottom: 175%;
-
-    }
-
-.menu a {
-  text-decoration: none;
-  color: black;
-  margin: 0 auto;
-}
-
-.menu a:hover {
-background-color: blue;
-}
 
 form {
   width: 50%;
@@ -145,24 +169,6 @@ form:hover {
   width: 100%;
 }
 
-.side {
-  left: 0;
-  position: fixed;
-  top: 10%;
-}
-
-.side li {
-  list-style: none;
-  background-image: url("assets/images/blue.gif");
-  box-shadow: 5px 5px;
-  padding: 15px;
-  width: 100px;
-  text-align: center;
-}
-
-.side li:hover {
-  background-image: none;
-}
 
 .spinning {
   top: 350px;
@@ -180,11 +186,179 @@ form:hover {
 
 .lib {
   opacity: 0;
+  display: inline-block;
+
 }
 
-.lib:hover{
+.lib:hover {
   opacity: 100;
+  display: inline-block;
+
 }
+
+.icon1 {
+  z-index: 1;
+  position: absolute;
+  top: 20%;
+  left: 48%;
+}
+
+.icon2 {
+  z-index: 1;
+  position: absolute;
+  top: 15%;
+  left: 39%;
+}
+
+.icon3 {
+  z-index: 1;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+}
+
+.icon4 {
+  z-index: 1;
+  position: absolute;
+  top: 40%;
+  left: 39%;
+}
+
+.icon5 {
+  z-index: 1;
+  position: absolute;
+  top: 40%;
+  left: 56%;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.icon6 {
+  z-index: 1;
+  position: absolute;
+  top: 45%;
+  left: 43%;
+}
+
+.icon7 {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
+
+
+.icon8 {
+  z-index: 1;
+  position: absolute;
+  top: 65%;
+  left: 36%;
+}
+
+.icon9 {
+  z-index: 1;
+  position: absolute;
+  top: 65%;
+  left: 60%;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.icon10 {
+  z-index: 0;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+.icon11 {
+  z-index: 1;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+.icon12 {
+  z-index: 1;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+}
+
+.icon13 {
+  z-index: 1;
+  position: absolute;
+  top: 75%;
+  left: 42%;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+.icon14 {
+  z-index: 1;
+  position: absolute;
+  top: 30%;
+  left: 48%;
+}
+
+.icon15 {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
+
+.icon16 {
+  z-index: 1;
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+
+.icon17 {
+  z-index: 1;
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.icon18 {
+  z-index: 1;
+  position: absolute;
+  top: 60%;
+  left: 28%;
+}
+
+.icon19 {
+  z-index: 1;
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
 
 
     </style>
@@ -194,7 +368,6 @@ form:hover {
     </head>
 
 <marquee behavior="scroll" direction="left">If It Doesn't Exist on the Internet, It Doesn't Exist</marquee>
-
 
 <div class="spinning">
 <img src="assets/images/spinning_int.gif" width="50%" alt="">
@@ -208,9 +381,9 @@ form:hover {
 
   <div class="menu">
     <ul>
-      <li><a href="article1.html">1</a></li>
-      <li><a href="article2.html">2</a></li>
-      <li><a href="article3.html">3</a></li>
+      <li><a class="current" href="article1.html">If It Doesn't Exist on the Internet, <br>It Doesn't Exist</a></li> <br>
+      <li><a href="article2.html">A Second Life: Living Online</a></li><br>
+      <li><a href="article3.html">Where is the Internet?</a></li><br>
     </ul>
     </div>
 
@@ -226,16 +399,33 @@ form:hover {
 
 </div>
 
-<div class="side">
-<ul>
-  <li><a href="index.html">Home</a></li> <br>
-  <li><a href="">About</a></li> <br>
-  <li><a href="">What</a></li>
-</ul>
-</div>
+<img class="icon1" src="assets/images/30.gif" alt="">
+<img class="icon2" src="assets/images/astro.png" alt="">
+<img class="icon3" src="assets/images/solutions.png" alt="">
+<img class="icon4" src="assets/images/28.gif" alt="">
+<img class="icon5" src="assets/images/28.gif" alt="">
+<img class="icon6" src="assets/images/3 (1).gif" alt="">
+
+<img class="icon8" src="assets/images/11.gif" alt="">
+<img class="icon9" src="assets/images/11.gif" alt="">
+<img class="icon10" src="assets/images/28 (1).gif" width="200px" alt="">
+<img class="icon11" src="assets/images/remote.png" alt="">
+<img class="icon12" src="assets/images/19.gif" alt="">
+<img class="icon13" src="assets/images/19.gif" alt="">
+<img class="icon14" src="assets/images/13.gif" alt="">
+<img class="icon15" src="assets/images/19 copy.gif" alt="">
+<img class="icon16" src="assets/images/26 copy.gif" alt="">
+<img class="icon17" src="assets/images/26 copy.gif" alt="">
+<img class="icon18" src="assets/images/15.gif" alt="">
+<img class="icon19" src="assets/images/15.gif" alt="">
+
+
+<img class="hero" src="assets/images/starbg.jpg" alt="">
 
 
 <div class="text">
+
+
 
     <h1>If It Doesn't Exist on the Internet, It Doesn't Exist</h1>
     <h3>Kenneth Goldsmith</h3>
