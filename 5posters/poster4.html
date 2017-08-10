@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/main.js" charset="utf-8"></script>
+  </head>
+
+  <style media="screen">
+
+.outline_text {
+font-family: helvetica;
+font-style: italic;
+font-size: 500px;
+font-weight: 700;
+color: white;
+-webkit-text-stroke: 10px #664b00;
+letter-spacing: -45px;
+z-index: -1;
+position: absolute;
+left: 200px;
+}
+
+
+.backwards_text {
+-moz-transform: scale(-1, 1);
+-webkit-transform: scale(-1, 1);
+-o-transform: scale(-1, 1);
+-ms-transform: scale(-1, 1);
+transform: scale(-1, 1);
+font-family: helvetica;
+font-style: italic;
+font-size: 500px;
+font-weight: 700;
+color: #664b00;
+letter-spacing: -45px;
+z-index: 1;
+position: absolute;
+left: 350px;
+opacity: 0;
+transition: 2s;
+}
+
+.backwards_text.showme {
+  opacity: 1;
+  transition: 2s;
+}
+
+.backwards_text2 {
+-moz-transform: scale(-1, 1);
+-webkit-transform: scale(-1, 1);
+-o-transform: scale(-1, 1);
+-ms-transform: scale(-1, 1);
+transform: scale(-1, 1);
+font-family: helvetica;
+font-style: italic;
+font-size: 500px;
+font-weight: 700;
+color: #664b00;
+letter-spacing: -45px;
+z-index: 1;
+position: absolute;
+left: 230px;
+top: 400px;
+opacity: 0;
+transition: 2s;
+}
+
+.backwards_text2.showme {
+  opacity: 1;
+  transition: 2s;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  background-color: #664b00;
+  position: absolute;
+  left: 480px;
+  top: 482px;
+}
+
+  </style>
+
+
+  <body>
+<div class="outline_text">
+  JA
+</div>
+
+<div class="backwards_text">
+J
+</div>
+
+<div class="backwards_text2">
+A
+</div>
+
+
+<div class="circle"> </div>
+
+  </body>
+</html>
