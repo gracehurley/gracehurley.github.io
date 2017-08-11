@@ -19,12 +19,14 @@ $(document).ready(function() {
           }, true);
 
 
-    $('.text_wrap_1').click(function() {
+    $('.push1').click(function() {
+      $('.push1').addClass('test');
             audioBell.play();
          });
 
 
-     $('.text_wrap_2').click(function() {
+     $('.push2').click(function() {
+$('.push2').addClass('test');
              audioBell.pause();
          });
 
