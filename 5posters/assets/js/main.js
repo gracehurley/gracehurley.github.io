@@ -12,7 +12,7 @@ $(document).ready(function() {
 
 
   var audioBell = document.createElement('audio');
-          audioBell.setAttribute('src', 'assets/images/PushIt.mp3');
+          audioBell.setAttribute('src', 'https://gracehurley.github.io/5posters/assets/images/pushit2.mp3');
           $.get();
           audioBell.addEventListener("load", function() {
             audioBell.play();
