@@ -1,0 +1,9 @@
+a {
+  text-decoration: underline blue;
+  color: blue;
+  font-size: 48px;
+}
+
+a:hover {
+font-style: italic;
+}

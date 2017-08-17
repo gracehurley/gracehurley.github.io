@@ -11,6 +11,17 @@ $(document).ready(function() {
 
 
 
+  setTimeout(function () {
+        $('.egg').addClass('showme');
+      }, 3000);
+
+
+
+
+
+
+
+
   var audioBell = document.createElement('audio');
           audioBell.setAttribute('src', 'https://gracehurley.github.io/5posters/assets/images/pushit2.mp3');
           $.get();
