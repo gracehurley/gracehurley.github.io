@@ -24,3 +24,93 @@ body.evenS.pm .sunset {
 body.evenS .time{
 
 }
+
+.time {
+  font-family: arial;
+  font-size: 350px;
+  position: absolute;
+  left: 50px;
+  top: 0px;
+  color: black;
+  -webkit-text-stroke: 0px black;
+}
+
+.video1 {
+  display: none;
+}
+
+.video2 {
+  display: none;
+}
+
+.video3 {
+  display: none;
+}
+
+.video4 {
+  display: none;
+}
+
+.video5 {
+  display: none;
+}
+
+.video6 {
+  display: none;
+}
+
+.video7 {
+  display: none;
+}
+
+.video8 {
+  display: none;
+}
+
+.video9 {
+  display: none;
+}
+
+.video10 {
+  display: none;
+}
+
+body.every5 .video1{
+  display: block;
+}
+
+body.every10 .video2{
+  display: block;
+}
+
+body.every15 .video3{
+  display: block;
+}
+
+body.every20 .video4{
+  display: block;
+}
+
+body.every25 .video5{
+  display: block;
+}
+
+body.every30 .video6{
+  display: block;
+}
+
+body.every35 .video7{
+  display: block;
+}
+
+body.every40 .video8{
+  display: block;
+}
+
+body.every45 .video9{
+  display: block;
+}
+
+body.every50 .video10{
+  display: block;
+}

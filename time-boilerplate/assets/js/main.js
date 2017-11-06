@@ -9,7 +9,7 @@ $(document).ready(function() {
 
 $('.textbehind').typeOut({
   marker : ' ',
-  delay : 100,
+  delay : 50,
   preserve : true });
 
 
