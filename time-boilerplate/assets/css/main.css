@@ -40,6 +40,7 @@ a:hover {
   -webkit-text-stroke: 1px black;
   margin-left: 10px;
   position: absolute;
+  margin-right: 375px;
 }
 
 .black{
@@ -56,6 +57,7 @@ a:hover {
   -webkit-text-stroke: 1px white;
   margin-left: 10px;
   position: absolute;
+    margin-right: 375px;
 }
 
 .fail {
